@@ -1,0 +1,8 @@
+[package]
+name = "prefix_storage"
+version = "0.1.0"
+authors = ["billyevans <pervushinai@gmail.com>"]
+
+[dependencies]
+hyper = "0.6.8"
+tst = "0.3.1"
