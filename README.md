@@ -13,9 +13,13 @@ cargo build
 curl localhost:1337/key -d "data"
 curl localhost:1337/key2 -d "data"
 ```
-### To get data by prefix
+### To get data by key
 ```
 curl localhost:1337/key
+```
+### To get data by prefix
+```
+curl localhost:1337/key?query=prefix
 ```
 ### To remove data by key
 ```
@@ -26,5 +30,3 @@ curl localhost:1337/key -X DELETE
 ```
 cat dict | fill.py 1337
 ```
-
-
